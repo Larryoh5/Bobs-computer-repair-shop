@@ -1,0 +1,50 @@
+<!--
+============================================
+; Title:  not-found.component.html
+; Author: Kevin Jones
+; Date: 22 July 2021
+; Description: Not found component HTML file
+;===========================================
+ -->
+
+ <main class="flex-grow mb-20">
+  <h1 class="text-5xl md:text-6xl font-bold text-center">
+    Looks like you've got some bad luck.
+  </h1>
+  <br />
+  <h2 class="text-3xl md:text-4xl font-bold text-center">
+    This page couldn't be found!
+  </h2>
+  <div class="container mx-auto px-6 pt-10">
+    <div class="sm:flex sm:mt-8">
+      <div
+        class="
+          mt-8
+          sm:mt-0 sm:w-full sm:px-8
+          flex flex-col
+          md:flex-row
+          justify-around
+        "
+      >
+        <div class="flex flex-col">
+          <img src="./assets/404.webp" />
+          <br />
+          <button
+            routerLink="/"
+            class="
+              bg-gray-500
+              hover:bg-gray-600
+              text-white
+              font-bold
+              py-2
+              px-4
+              rounded
+            "
+          >
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

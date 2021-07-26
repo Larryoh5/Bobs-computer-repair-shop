@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+/**
+ * * Title: app.component.ts
+ * Author: Larry Ohaka
+ * Date: 7/17/21
+ * Description: Navigation and Layout
+ */
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'computer-repair-app';
-}
+ import { Component } from '@angular/core';
+
+ @Component({
+   selector: 'app-root',
+   templateUrl: './app.component.html',
+   styleUrls: ['./app.component.css'],
+ })
+ export class AppComponent {
+   title = 'bobs-computer-repair';
+ }
+
